@@ -10,8 +10,7 @@ const Layout = () => {
         <div>
             <ul className="flex gap-[10px]">
                 <li>
-                    <Link to={"/"}>signUp</Link>
-                    
+                    <Link to={"/"}></Link>
                 </li>
             </ul>
             <Outlet />
