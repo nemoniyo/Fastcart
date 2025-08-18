@@ -10,9 +10,9 @@ const SignUp = () => {
                 <div className='flex flex-col gap-[20px]'>
                     <h1 className='text-[36px] font-[500]'>Create an account</h1>
                     <p className='text-[16px] font-[500]'>Enter your details below</p>
-                    <input type="text" placeholder='Name' className='w-[420px] h-[56px] p-[5px] px-[15px] rounded-[4px]' />
-                    <input type="text" placeholder='Email or phone number' className='w-[420px] h-[56px] p-[5px] px-[15px] rounded-[4px]' />
-                    <input type="password" placeholder='Password' className='w-[420px] h-[56px] p-[5px] px-[15px] rounded-[4px]' />
+                    <input type="text" placeholder='Name' className='w-[420px] h-[56px] p-[5px] px-[15px] rounded-[4px] border-[2px] border-black ' />
+                    <input type="text" placeholder='Email or phone number' className='w-[420px] h-[56px] p-[5px] px-[15px] rounded-[4px] border-[2px] border-black ' />
+                    <input type="password" placeholder='Password' className='w-[420px] h-[56px] p-[5px] px-[15px] rounded-[4px] border-[2px] border-black ' />
                     <button className='w-[420px] h-[56px] bg-[#DB4444] hover:bg-[crimson] transition-all duration-500 text-[18px] font-[500] text-[whitesmoke] rounded-[4px]'>Create Account</button>
                     <button className='w-[420px] h-[56px] rounded-[4px] flex gap-[20px] justify-center items-center border border-black'>
                         <img src={LogoGoogle} alt="LogoGoogle" className='w-[24px] h-[24px]' />
