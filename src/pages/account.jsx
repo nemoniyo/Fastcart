@@ -5,11 +5,9 @@ import Navbar from '../components/navbar';
 const Account = () => {
     return (
         <div>
-            <Navbar/>
             <div>
                 
             </div>
-            <Footer/>
         </div>
     )
 }

@@ -5,11 +5,9 @@ import Footer from "../components/footer";
 const NotFound = () => {
     return (
         <div>
-            <Navbar />
             <div>
 
             </div>
-            <Footer />
         </div>
     )
 }

@@ -5,11 +5,9 @@ import Footer from "../components/footer";
 const Contact = () => {
     return (
         <div>
-            <Navbar />
             <div>
 
             </div>
-            <Footer/>
         </div>
     )
 }

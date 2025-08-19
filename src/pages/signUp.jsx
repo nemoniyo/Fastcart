@@ -7,7 +7,6 @@ import Footer from '../components/footer';
 const SignUp = () => {
     return (
         <div>
-            <Navbar/>
             <div className='flex justify-center pt-[300px] pb-[250px]'>
                 <div className='flex flex-col gap-[20px]'>
                     <h1 className='text-[36px] font-[500]'>Create an account</h1>
@@ -26,7 +25,6 @@ const SignUp = () => {
                         </p>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

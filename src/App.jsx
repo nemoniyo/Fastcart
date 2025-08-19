@@ -17,11 +17,9 @@ export default function App() {
       element: <Layout/>,
       children: [
         {
-          index: true,
           element: <SignUp />
         },
         {
-          index: true,
           path: "logIn",
           element: <LogIn />
         },
@@ -31,22 +29,18 @@ export default function App() {
           element: <Home />
         },
         {
-          index: true,
           path: "contact",
           element: <Contact />
         },
         {
-          index: true,
           path: "about",
           element: <About />
         },
         {
-          index: true,
           path: "wishlist",
           element: <Wishlist />
         },
         {
-          index: true,
           path: "cart",
           element: <Cart />
         },

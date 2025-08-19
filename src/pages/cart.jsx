@@ -5,11 +5,9 @@ import Footer from "../components/footer";
 const Cart = () => {
     return (
         <div>
-            <Navbar />
             <div>
 
             </div>
-            <Footer/>
         </div>
     )
 }
