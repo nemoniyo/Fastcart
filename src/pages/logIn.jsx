@@ -5,7 +5,7 @@ const LogIn = () => {
     return (
         <div>
             <Navbar/>
-
+            
         </div>
     )
 }
