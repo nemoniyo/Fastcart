@@ -15,13 +15,13 @@ const Navbar = () => {
                     className='w-[200px] h-[65px]'
                 />
                 <ul className='flex gap-[45px] text-[18px] items-center'>
-                    <Link to={'home'}>
+                    <Link to={'/home'}>
                         <li className='hover:underline'>Home</li>
                     </Link>
-                    <Link to={'contact'}>
+                    <Link to={'/contact'}>
                         <li className='hover:underline'>Contact</li>
                     </Link>
-                    <Link to={'about'}>
+                    <Link to={'/about'}>
                         <li className='hover:underline'>About</li>
                     </Link>
                 </ul>
@@ -37,10 +37,10 @@ const Navbar = () => {
                     <div onClick={toggleTheme} className='m-[10px]'>
                         <ThemeToggle />
                     </div>
-                    <Link to={'wishlist'}>
+                    <Link to={'/wishlist'}>
                         <Heart />
                     </Link>
-                    <Link to={'cart'}>
+                    <Link to={'/cart'}>
                         <ShoppingCart />
                     </Link>
                 </div>

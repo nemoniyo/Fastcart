@@ -12,6 +12,7 @@ const Layout = () => {
                 <li>
                     <Link to={"/"}></Link>
                 </li>
+                
             </ul>
             <Outlet />
         </div>
