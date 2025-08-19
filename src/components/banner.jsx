@@ -6,7 +6,7 @@ import Iphone from "../assets/images/iphone14promax.png";
 const Banner = () => {
     return (
         <div>
-            <div className="bg-[black] flex justify-between items-center w-[1060px] h-[440px] m-[50px] p-[50px]">
+            <div className="bg-[black] flex justify-between items-center w-[1060px] h-[440px] m-[50px] p-[50px] border-[2px] border-[whitesmoke]">
                 <div>
                     <div className="flex items-center gap-[30px]">
                         <img src={LogoApple} alt="LogoApple" className="w-[40px] h-[50px]" />

@@ -8,7 +8,7 @@ import JBL from "../assets/images/jbl.speaker.png";
 const BannerTwo = () => {
     return (
         <div>
-            <div className='bg-[black] flex gap-[150px] justify-center items-center mb-[50px] w-[1370px] h-[500px] p-[50px]'>
+            <div className='bg-[black] flex flex-wrap gap-[150px] justify-center items-center mb-[50px] w-[1370px] h-[500px] p-[50px] border-[1px] border-[whitesmoke]'>
                 <aside className='flex flex-col gap-[25px]'>
                     <p className='text-[#00FF66] text-[18px] font-[600]'>Categories</p>
                     <h1 className='text-[whitesmoke] text-[48px] font-[600]'>Enhance Your <br />

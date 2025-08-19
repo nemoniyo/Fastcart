@@ -14,9 +14,11 @@ export default function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout/>,
+      element: <Layout />,
       children: [
         {
+          index: true,
+          path: "signIn",
           element: <SignUp />
         },
         {

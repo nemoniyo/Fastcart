@@ -19,7 +19,7 @@ const SignUp = () => {
                         <img src={LogoGoogle} alt="LogoGoogle" className='w-[24px] h-[24px]' />
                         <p className='text-[16px] font-[500] hover:underline hover:text-[#DB4444] transition-all duration-500'>Sign up with Google</p></button>
                     <p className='text-center flex items-center gap-4 justify-center'>Already have account?
-                        <Link to={'logIn'}>
+                        <Link to={'/logIn'}>
                         <b className='hover:underline hover:text-[#DB4444] transition-all duration-500'>Log in</b>
                         </Link>    
                         </p>

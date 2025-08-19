@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 import { Carousel } from 'antd';
 import Banner from "../components/banner";
 import BannerTwo from "../components/bannerTwo";
+import BannerThree from "../components/bannerThree";
 
 
 export default function Home() {
@@ -37,7 +38,9 @@ export default function Home() {
                 <div className="flex justify-center">
                     <BannerTwo/>
                 </div>
-                
+                <div className="flex justify-center">
+                    <BannerThree/>
+                </div>
             </div>
         </div>
     </>)
