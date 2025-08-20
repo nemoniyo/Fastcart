@@ -15,6 +15,9 @@ export default function Home() {
     const onChange = (currentSlide) => {
         console.log(currentSlide);
     };
+
+    
+
     return (<>
         <div>
             <div className="flex pl-[350px] h-[700px]">

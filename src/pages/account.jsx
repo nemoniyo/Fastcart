@@ -1,14 +1,11 @@
 import React from 'react'
 
-
 const Account = () => {
-    return (
+    return (<>
         <div>
-            <div>
-                
-            </div>
+
         </div>
-    )
+    </>)
 }
 
 export default Account
