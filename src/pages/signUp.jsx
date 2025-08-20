@@ -1,8 +1,6 @@
 import React from 'react'
-import Navbar from '../components/navbar'
 import LogoGoogle from "../assets/images/Icon-Google.png"
 import { Link } from 'react-router-dom';
-import Footer from '../components/footer';
 
 const SignUp = () => {
     return (

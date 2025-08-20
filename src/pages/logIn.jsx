@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from '../components/navbar';
-import Footer from "../components/footer";
+
 import { API } from "../config";
 import { useNavigate } from "react-router-dom";
 
