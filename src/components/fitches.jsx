@@ -5,7 +5,7 @@ import services2 from "../assets/images/Services (2).png";
 const Fitches = () => {
     return (
         <div>
-            <div className="flex items-center justify-center gap-[250px] w-[1370px] h-[281px] border-[2px] border-[white] my-[150px]">
+            <div className="flex flex-wrap items-center justify-center gap-[250px] w-[1370px] h-[281px] border-[2px] border-[white] my-[150px]">
                     <div className="flex flex-col justify-center gap-[10px] items-center w-[262px] h-[161px]">
                         <img src={services} alt="services" className="w-[80px] h-[80px]" />
                         <p className="text-[22px] text-[black] dark:text-[whitesmoke] font-[600]">FREE AND FAST DELIVERY</p>

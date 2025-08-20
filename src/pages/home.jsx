@@ -45,7 +45,7 @@ export default function Home() {
                 <p className="text-[18px] font-[600] text-[#DB4444]">Feature</p>
             </div>
             <h1 className="text-[36px] dark:text-[whitesmoke] text-[black] font-[600] lg:pl-[330px] pb-[50px]">New Arrival</h1>
-            <div className="flex justify-center">
+            <div className="flex flex-wrap justify-center">
                 <BannerThree />
             </div>
             <div className="flex justify-center">

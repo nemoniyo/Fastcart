@@ -8,6 +8,7 @@ import Contact from "./pages/contact";
 import About from "./pages/about";
 import Wishlist from "./pages/wishlist";
 import Cart from "./pages/cart";
+import Account from "./pages/account";
 
 
 export default function App() {
@@ -45,6 +46,10 @@ export default function App() {
         {
           path: "cart",
           element: <Cart />
+        },
+        {
+          path: "account",
+          element: <Account />
         },
       ]
     }

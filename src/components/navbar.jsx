@@ -2,13 +2,13 @@ import React from 'react'
 import LogoFastcart from "../assets/images/fastcart.logo.png"
 import useDarkSide from '../config/useDarkMode';
 import ThemeToggle from '../components/switch';
-import { Search, Heart, ShoppingCart, } from 'lucide-react';
+import { Search, Heart, ShoppingCart, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [theme, toggleTheme] = useDarkSide();
     return (
         <div>
-            <nav className='flex items-center gap-[240px] justify-center p-[20px]'>
+            <nav className='flex items-center gap-[220px] justify-center p-[20px]'>
                 <img
                     src={LogoFastcart}
                     alt="LogoFastcart"
@@ -42,6 +42,9 @@ const Navbar = () => {
                     </Link>
                     <Link to={'/cart'}>
                         <ShoppingCart />
+                    </Link>
+                    <Link to={'/account'}>
+                        <User />
                     </Link>
                 </div>
             </nav>
