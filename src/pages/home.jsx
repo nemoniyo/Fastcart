@@ -16,8 +16,6 @@ export default function Home() {
         console.log(currentSlide);
     };
 
-    
-
     return (<>
         <div>
             <div className="flex pl-[350px] h-[700px]">
