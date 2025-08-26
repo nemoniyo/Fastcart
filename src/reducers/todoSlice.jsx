@@ -4,7 +4,7 @@ import { API } from '../config';
 export const getData = createAsyncThunk("counter/getData", async () => {
     try {
         const { data } = await API.get("Product/get-products");
-        return data
+        return data;
     } catch (error) {
         console.error(error);
     }
