@@ -14,7 +14,7 @@ const Banner = () => {
                     </div>
                     <h1 className="text-[48px] text-[white] my-[20px] font-[600] m-[10px]">Up to 10% <br />
                         off Voucher</h1>
-                    <button className="flex text-[18px] text-[whitesmoke] font-[500] items-center gap-[15px]">
+                    <button className="flex text-[18px] text-[whitesmoke] font-[500] items-center gap-[15px] hover:text-[crimson] transition-all duration-500">
                         <p className="underline">Shop Now</p>
                         <ArrowRight />
                     </button>

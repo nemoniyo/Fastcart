@@ -42,22 +42,22 @@ const About = () => {
                 </div>
             </div>
             <div className='flex lg:flex-wrap lg:gap-[85px] lg:h-[430px] justify-center items-center text-[black] dark:text-[whitesmoke]'>
-                <div className='w-[270px] h-[230px] border-[2px] border-gray-400 rounded-[4px] flex flex-col justify-center items-center'>
+                <div className='w-[270px] h-[230px] border-[2px] border-gray-400 rounded-[4px] flex flex-col justify-center items-center hover:bg-[#DB4444] transition-all duration-500'>
                     <img src={services3} alt="services3" className='w-[80px] h-[80px]' />
                     <h1 className='text-[38px] font-[700]'>10.5k</h1>
                     <p className='text-[18px] text-[500]'>Sallers active our site</p>
                 </div>
-                <div className='w-[270px] h-[230px] border-[2px] border-gray-400 rounded-[4px] flex flex-col justify-center items-center text-[whitesmoke] dark:text-[black] bg-[#DB4444]'>
+                <div className='w-[270px] h-[230px] border-[2px] border-gray-400 rounded-[4px] flex flex-col justify-center items-center hover:bg-[#DB4444] transition-all duration-500'>
                     <img src={services4} alt="services4" className='w-[80px] h-[80px]' />
                     <h1 className='text-[38px] font-[700]'>33k</h1>
                     <p className='text-[18px] text-[500]'>Mopnthly Produduct Sale</p>
                 </div>
-                <div className='w-[270px] h-[230px] border-[2px] border-gray-400 rounded-[4px] flex flex-col justify-center items-center'>
+                <div className='w-[270px] h-[230px] border-[2px] border-gray-400 rounded-[4px] flex flex-col justify-center items-center hover:bg-[#DB4444] transition-all duration-500'>
                     <img src={services5} alt="services5" className='w-[80px] h-[80px]' />
                     <h1 className='text-[38px] font-[700]'>45.5k</h1>
                     <p className='text-[18px] text-[500]'>Customer active in our site</p>
                 </div>
-                <div className='w-[270px] h-[230px] border-[2px] border-gray-400 rounded-[4px] flex flex-col justify-center items-center'>
+                <div className='w-[270px] h-[230px] border-[2px] border-gray-400 rounded-[4px] flex flex-col justify-center items-center hover:bg-[#DB4444] transition-all duration-500'>
                     <img src={services6} alt="services6" className='w-[80px] h-[80px]' />
                     <h1 className='text-[38px] font-[700]'>25k</h1>
                     <p className='text-[18px] text-[500]'>Anual gross sale in our site</p>

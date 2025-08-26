@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import "../App.css";
 import Navbar from "../components/navbar";
@@ -48,6 +47,9 @@ export default function Home() {
                 </div>
                 <div>
                     <Carousel afterChange={onChange} className="w-[1100px] h-[450px]">
+                        <Banner />
+                        <Banner />
+                        <Banner />
                         <Banner />
                     </Carousel>
                 </div>
